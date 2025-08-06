@@ -505,169 +505,255 @@ body::-webkit-scrollbar-thumb:hover {
    
 <section class="container mx-auto px-4 md:px-8 my-12">
     <div class="glass-matrix p-6 rounded-lg">
-        <h3 class="text-2xl font-bold text-lime-400 mb-6 cyberpunk-font">ALIEN & PREDATOR TIMELINE</h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div class="space-y-4">
-                <div class="flex items-start">
-                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-indigo-500 flex items-center justify-center mr-3 mt-1">
+        <h3 class="text-2xl font-bold text-lime-400 mb-6 cyberpunk-font text-center">ALIEN & PREDATOR CHRONOLOGICAL TIMELINE</h3>
+        
+        <div class="timeline-container relative max-w-4xl mx-auto">
+            <!-- Vertical center line -->
+            <div class="absolute left-1/2 top-0 h-full w-1 bg-gradient-to-b from-lime-400 to-indigo-500 transform -translate-x-1/2"></div>
+            
+            <!-- Timeline entries -->
+            <div class="space-y-12">
+                <!-- Entry 1 - Left -->
+                <div class="relative w-full">
+                    <div class="absolute left-1/2 -ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-indigo-500 flex items-center justify-center mt-1 z-10">
                         <span class="text-xs font-bold">1</span>
                     </div>
-                    <div>
-                        <h4 class="text-lg font-bold text-white">Prey (1719)</h4>
-                        <p class="text-gray-400 text-sm">The earliest known Predator encounter on Earth</p>
+                    <div class="w-5/12 pr-8 text-right">
+                        <div class="flex flex-col">
+                            <span class="text-lime-400 font-mono text-sm">1719</span>
+                            <span class="text-white font-bold mt-1">Prey</span>
+                            <p class="text-gray-400 text-sm mt-1">The earliest known Predator encounter on Earth</p>
+                        </div>
                     </div>
                 </div>
-                <div class="flex items-start">
-                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-indigo-500 flex items-center justify-center mr-3 mt-1">
+                
+                <!-- Entry 2 - Right -->
+                <div class="relative w-full flex justify-end">
+                    <div class="absolute left-1/2 -ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-indigo-500 flex items-center justify-center mt-1 z-10">
                         <span class="text-xs font-bold">2</span>
                     </div>
-                    <div>
-                        <h4 class="text-lg font-bold text-white">Predator (1987)</h4>
-                        <p class="text-gray-400 text-sm">First documented modern Predator encounter</p>
+                    <div class="w-5/12 pl-8 text-left">
+                        <div class="flex flex-col">
+                            <span class="text-lime-400 font-mono text-sm">1987</span>
+                            <span class="text-white font-bold mt-1">Predator</span>
+                            <p class="text-gray-400 text-sm mt-1">First documented modern Predator encounter</p>
+                        </div>
                     </div>
                 </div>
-                <div class="flex items-start">
-                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-indigo-500 flex items-center justify-center mr-3 mt-1">
+                
+                <!-- Entry 3 - Left -->
+                <div class="relative w-full">
+                    <div class="absolute left-1/2 -ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-indigo-500 flex items-center justify-center mt-1 z-10">
                         <span class="text-xs font-bold">3</span>
                     </div>
-                    <div>
-                        <h4 class="text-lg font-bold text-white">Predator 2 (1997)</h4>
-                        <p class="text-gray-400 text-sm">Predator activity in Los Angeles</p>
+                    <div class="w-5/12 pr-8 text-right">
+                        <div class="flex flex-col">
+                            <span class="text-lime-400 font-mono text-sm">1990</span>
+                            <span class="text-white font-bold mt-1">Predator 2</span>
+                            <p class="text-gray-400 text-sm mt-1">Predator activity in Los Angeles</p>
+                        </div>
                     </div>
                 </div>
-                <div class="flex items-start">
-                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-indigo-500 flex items-center justify-center mr-3 mt-1">
+                
+                <!-- Entry 4 - Right -->
+                <div class="relative w-full flex justify-end">
+                    <div class="absolute left-1/2 -ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-indigo-500 flex items-center justify-center mt-1 z-10">
                         <span class="text-xs font-bold">4</span>
                     </div>
-                    <div>
-                        <h4 class="text-lg font-bold text-white">AVP: Alien vs. Predator (2004)</h4>
-                        <p class="text-gray-400 text-sm">First recorded interaction between species</p>
+                    <div class="w-5/12 pl-8 text-left">
+                        <div class="flex flex-col">
+                            <span class="text-lime-400 font-mono text-sm">2004</span>
+                            <span class="text-white font-bold mt-1">AVP: Alien vs. Predator</span>
+                            <p class="text-gray-400 text-sm mt-1">First recorded interaction between species</p>
+                        </div>
                     </div>
                 </div>
-                <div class="flex items-start">
-                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-indigo-500 flex items-center justify-center mr-3 mt-1">
+                
+                <!-- Entry 5 - Left -->
+                <div class="relative w-full">
+                    <div class="absolute left-1/2 -ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-indigo-500 flex items-center justify-center mt-1 z-10">
                         <span class="text-xs font-bold">5</span>
                     </div>
-                    <div>
-                        <h4 class="text-lg font-bold text-white">AVPR: Alien vs. Predator - Requiem (2004)</h4>
-                        <p class="text-gray-400 text-sm">Containment breach in Colorado</p>
+                    <div class="w-5/12 pr-8 text-right">
+                        <div class="flex flex-col">
+                            <span class="text-lime-400 font-mono text-sm">2007</span>
+                            <span class="text-white font-bold mt-1">AVPR: Alien vs. Predator - Requiem</span>
+                            <p class="text-gray-400 text-sm mt-1">Containment breach in Colorado</p>
+                        </div>
                     </div>
                 </div>
-                <div class="flex items-start">
-                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-indigo-500 flex items-center justify-center mr-3 mt-1">
+                
+                <!-- Entry 6 - Right -->
+                <div class="relative w-full flex justify-end">
+                    <div class="absolute left-1/2 -ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-lime-500 flex items-center justify-center mt-1 z-10">
                         <span class="text-xs font-bold">6</span>
                     </div>
-                    <div>
-                        <h4 class="text-lg font-bold text-white">Predators (~2010-2020)</h4>
-                        <p class="text-gray-400 text-sm">Speculative hunting preserve incidents</p>
+                    <div class="w-5/12 pl-8 text-left">
+                        <div class="flex flex-col">
+                            <span class="text-lime-400 font-mono text-sm">2010</span>
+                            <span class="text-white font-bold mt-1">Predators</span>
+                            <p class="text-gray-400 text-sm mt-1">Speculative hunting preserve incidents</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="space-y-4">
-                <div class="flex items-start">
-                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-lime-500 flex items-center justify-center mr-3 mt-1">
+                
+                <!-- Entry 7 - Left -->
+                <div class="relative w-full">
+                    <div class="absolute left-1/2 -ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-lime-500 flex items-center justify-center mt-1 z-10">
                         <span class="text-xs font-bold">7</span>
                     </div>
-                    <div>
-                        <h4 class="text-lg font-bold text-white">The Predator (2018)</h4>
-                        <p class="text-gray-400 text-sm">Genetic experimentation by Predators</p>
+                    <div class="w-5/12 pr-8 text-right">
+                        <div class="flex flex-col">
+                            <span class="text-lime-400 font-mono text-sm">2018</span>
+                            <span class="text-white font-bold mt-1">The Predator</span>
+                            <p class="text-gray-400 text-sm mt-1">Genetic experimentation by Predators</p>
+                        </div>
                     </div>
                 </div>
-                <div class="flex items-start">
-                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-lime-500 flex items-center justify-center mr-3 mt-1">
+                
+                <!-- Entry 8 - Right -->
+                <div class="relative w-full flex justify-end">
+                    <div class="absolute left-1/2 -ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-lime-500 flex items-center justify-center mt-1 z-10">
                         <span class="text-xs font-bold">8</span>
                     </div>
-                    <div>
-                        <h4 class="text-lg font-bold text-white">Prometheus (2093)</h4>
-                        <p class="text-gray-400 text-sm">Discovery of Engineer civilization</p>
+                    <div class="w-5/12 pl-8 text-left">
+                        <div class="flex flex-col">
+                            <span class="text-lime-400 font-mono text-sm">2090</span>
+                            <span class="text-white font-bold mt-1">Alien: Earth</span>
+                            <p class="text-gray-400 text-sm mt-1">Early Xenomorph encounters on Earth</p>
+                        </div>
                     </div>
                 </div>
-                <div class="flex items-start">
-                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-lime-500 flex items-center justify-center mr-3 mt-1">
+                
+                <!-- Entry 9 - Left -->
+                <div class="relative w-full">
+                    <div class="absolute left-1/2 -ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-lime-500 flex items-center justify-center mt-1 z-10">
                         <span class="text-xs font-bold">9</span>
                     </div>
-                    <div>
-                        <h4 class="text-lg font-bold text-white">Alien: Covenant (2104)</h4>
-                        <p class="text-gray-400 text-sm">First direct Xenomorph creation</p>
+                    <div class="w-5/12 pr-8 text-right">
+                        <div class="flex flex-col">
+                            <span class="text-lime-400 font-mono text-sm">2093</span>
+                            <span class="text-white font-bold mt-1">Prometheus</span>
+                            <p class="text-gray-400 text-sm mt-1">Discovery of Engineer civilization</p>
+                        </div>
                     </div>
                 </div>
-                <div class="flex items-start">
-                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-lime-500 flex items-center justify-center mr-3 mt-1">
+                
+                <!-- Entry 10 - Right -->
+                <div class="relative w-full flex justify-end">
+                    <div class="absolute left-1/2 -ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-lime-500 flex items-center justify-center mt-1 z-10">
                         <span class="text-xs font-bold">10</span>
                     </div>
-                    <div>
-                        <h4 class="text-lg font-bold text-white">Alien: Earth (~2090s-2122)</h4>
-                        <p class="text-gray-400 text-sm">Speculative, likely pre-Alien events</p>
+                    <div class="w-5/12 pl-8 text-left">
+                        <div class="flex flex-col">
+                            <span class="text-lime-400 font-mono text-sm">2104</span>
+                            <span class="text-white font-bold mt-1">Alien: Covenant</span>
+                            <p class="text-gray-400 text-sm mt-1">First direct Xenomorph creation</p>
+                        </div>
                     </div>
                 </div>
-                <div class="flex items-start">
-                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-lime-500 flex items-center justify-center mr-3 mt-1">
+                
+                <!-- Entry 11 - Left -->
+                <div class="relative w-full">
+                    <div class="absolute left-1/2 -ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-lime-500 flex items-center justify-center mt-1 z-10">
                         <span class="text-xs font-bold">11</span>
                     </div>
-                    <div>
-                        <h4 class="text-lg font-bold text-white">Alien (2122)</h4>
-                        <p class="text-gray-400 text-sm">First documented Xenomorph encounter</p>
+                    <div class="w-5/12 pr-8 text-right">
+                        <div class="flex flex-col">
+                            <span class="text-lime-400 font-mono text-sm">2122</span>
+                            <span class="text-white font-bold mt-1">Alien</span>
+                            <p class="text-gray-400 text-sm mt-1">First documented Xenomorph encounter</p>
+                        </div>
                     </div>
                 </div>
-                <div class="flex items-start">
-                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-lime-500 flex items-center justify-center mr-3 mt-1">
+                
+                <!-- Entry 12 - Right -->
+                <div class="relative w-full flex justify-end">
+                    <div class="absolute left-1/2 -ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-lime-500 flex items-center justify-center mt-1 z-10">
                         <span class="text-xs font-bold">12</span>
                     </div>
-                    <div>
-                        <h4 class="text-lg font-bold text-white">Alien: Romulus (2142)</h4>
-                        <p class="text-gray-400 text-sm">Space station Xenomorph outbreak</p>
+                    <div class="w-5/12 pl-8 text-left">
+                        <div class="flex flex-col">
+                            <span class="text-lime-400 font-mono text-sm">2142</span>
+                            <span class="text-white font-bold mt-1">Alien: Romulus</span>
+                            <p class="text-gray-400 text-sm mt-1">Space station Xenomorph outbreak</p>
+                        </div>
                     </div>
                 </div>
-                <div class="flex items-start">
-                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-lime-500 flex items-center justify-center mr-3 mt-1">
+                
+                <!-- Entry 13 - Left -->
+                <div class="relative w-full">
+                    <div class="absolute left-1/2 -ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-lime-500 flex items-center justify-center mt-1 z-10">
                         <span class="text-xs font-bold">13</span>
                     </div>
-                    <div>
-                        <h4 class="text-lg font-bold text-white">Aliens 2 (2179)</h4>
-                        <p class="text-gray-400 text-sm">Space station Xenomorph outbreak</p>
+                    <div class="w-5/12 pr-8 text-right">
+                        <div class="flex flex-col">
+                            <span class="text-lime-400 font-mono text-sm">2179</span>
+                            <span class="text-white font-bold mt-1">Aliens</span>
+                            <p class="text-gray-400 text-sm mt-1">Colonial Marines encounter Xenomorphs</p>
+                        </div>
                     </div>
                 </div>
-                <div class="flex items-start">
-                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-lime-500 flex items-center justify-center mr-3 mt-1">
+                
+                <!-- Entry 14 - Right -->
+                <div class="relative w-full flex justify-end">
+                    <div class="absolute left-1/2 -ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-lime-500 flex items-center justify-center mt-1 z-10">
                         <span class="text-xs font-bold">14</span>
                     </div>
-                    <div>
-                        <h4 class="text-lg font-bold text-white">Alien: 3 (2179-2180)</h4>
-                        <p class="text-gray-400 text-sm">Space station Xenomorph outbreak</p>
+                    <div class="w-5/12 pl-8 text-left">
+                        <div class="flex flex-col">
+                            <span class="text-lime-400 font-mono text-sm">2180</span>
+                            <span class="text-white font-bold mt-1">Alien³</span>
+                            <p class="text-gray-400 text-sm mt-1">Prison planet Xenomorph outbreak</p>
+                        </div>
                     </div>
                 </div>
-                <div class="flex items-start">
-                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-lime-500 flex items-center justify-center mr-3 mt-1">
+                
+                <!-- Entry 15 - Left -->
+                <div class="relative w-full">
+                    <div class="absolute left-1/2 -ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-lime-500 flex items-center justify-center mt-1 z-10">
                         <span class="text-xs font-bold">15</span>
                     </div>
-                    <div>
-                        <h4 class="text-lg font-bold text-white">Alien:4 Resurrection (2379)</h4>
-                        <p class="text-gray-400 text-sm">Space station Xenomorph outbreak</p>
+                    <div class="w-5/12 pr-8 text-right">
+                        <div class="flex flex-col">
+                            <span class="text-lime-400 font-mono text-sm">2379</span>
+                            <span class="text-white font-bold mt-1">Alien: Resurrection</span>
+                            <p class="text-gray-400 text-sm mt-1">Military experiments with Xenomorph DNA</p>
+                        </div>
                     </div>
                 </div>
-                <div class="flex items-start">
-                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-lime-500 flex items-center justify-center mr-3 mt-1">
+                
+                <!-- Entry 16 - Right -->
+                <div class="relative w-full flex justify-end">
+                    <div class="absolute left-1/2 -ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-lime-500 flex items-center justify-center mt-1 z-10">
                         <span class="text-xs font-bold">16</span>
                     </div>
-                    <div>
-                        <h4 class="text-lg font-bold text-white">Predators:killer of killers (2020)</h4>
-                        <p class="text-gray-400 text-sm">on earth </p>
+                    <div class="w-5/12 pl-8 text-left">
+                        <div class="flex flex-col">
+                            <span class="text-lime-400 font-mono text-sm">2025</span>
+                            <span class="text-white font-bold mt-1">Predator: Killer of Killers</span>
+                            <p class="text-gray-400 text-sm mt-1">Predator hunting elite human warriors</p>
+                        </div>
                     </div>
                 </div>
-                <div class="flex items-start">
-                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-lime-500 flex items-center justify-center mr-3 mt-1">
+                
+                <!-- Entry 17 - Left -->
+                <div class="relative w-full">
+                    <div class="absolute left-1/2 -ml-4 flex-shrink-0 w-8 h-8 rounded-full bg-lime-500 flex items-center justify-center mt-1 z-10">
                         <span class="text-xs font-bold">17</span>
                     </div>
-                    <div>
-                        <h4 class="text-lg font-bold text-white">Predator Badlands (2380)</h4>
-                        <p class="text-gray-400 text-sm">non earth survival</p>
+                    <div class="w-5/12 pr-8 text-right">
+                        <div class="flex flex-col">
+                            <span class="text-lime-400 font-mono text-sm">2380</span>
+                            <span class="text-white font-bold mt-1">Predator: Badlands</span>
+                            <p class="text-gray-400 text-sm mt-1">Predator survival on hostile alien world</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
    
     <footer class="text-gray-400 py-12 px-4 md:px-8 footer-bg">
         <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 relative z-10">
@@ -758,7 +844,7 @@ body::-webkit-scrollbar-thumb:hover {
     ],
     "budget": 11,
     "revenue": 104.9,
-    "trailerUrl": "https://www.youtube.com/watch?v=SvO5w6XJ_S8"
+    "trailerUrl": "https://uflix.cc/movie/alien-1979"
   },
   {
     "id": 257,
@@ -773,7 +859,7 @@ body::-webkit-scrollbar-thumb:hover {
     ],
     "budget": 18,
     "revenue": 131.1,
-    "trailerUrl": "https://www.youtube.com/watch?v=XKSAmLwJ6I"
+    "trailerUrl": "https://uflix.cc/movie/aliens-1986"
   },
   {
     "id": 258,
@@ -788,7 +874,7 @@ body::-webkit-scrollbar-thumb:hover {
     ],
     "budget": 15,
     "revenue": 98.3,
-    "trailerUrl": "https://www.youtube.com/watch?v=Yw9-1WfR1o"
+    "trailerUrl": "https://uflix.cc/movie/predator-1987"
   },
   {
     "id": 259,
@@ -803,7 +889,7 @@ body::-webkit-scrollbar-thumb:hover {
     ],
     "budget": 35,
     "revenue": 57,
-    "trailerUrl": "https://www.youtube.com/watch?v=hJ3K_7H7f-h"
+    "trailerUrl": "https://uflix.cc/movie/predator-2-1990"
   },
   {
     "id": 260,
@@ -818,7 +904,7 @@ body::-webkit-scrollbar-thumb:hover {
     ],
     "budget": 50,
     "revenue": 159.8,
-    "trailerUrl": "https://www.youtube.com/watch?v=J3A5W2pX5s"
+    "trailerUrl": "https://uflix.cc/movie/alien-1992"
   },
   {
     "id": 261,
@@ -833,7 +919,7 @@ body::-webkit-scrollbar-thumb:hover {
     ],
     "budget": 75,
     "revenue": 161.4,
-    "trailerUrl": "https://www.youtube.com/watch?v=yYJ4h4q8e2s"
+    "trailerUrl": "https://uflix.cc/movie/alien-resurrection-1997"
   },
   {
     "id": 262,
@@ -848,12 +934,12 @@ body::-webkit-scrollbar-thumb:hover {
     ],
     "budget": 60,
     "revenue": 172,
-    "trailerUrl": "https://www.youtube.com/watch?v=W-LhYtG_Kj"
+    "trailerUrl": "https://uflix.cc/movie/avp-alien-vs-predator-2004"
   },
   {
     "id": 263,
     "title": "AVPR: Alien vs Predator - Requiem",
-    "poster": "https://posters.movieposterdb.com/08_05/2007/758730/l_758730_d9bf094a.jpg",
+    "poster": "https://uflix.cc/movie/aliens-vs-predator-requiem-2007",
     "releaseDate": "2007-12-25",
     "rating": 4.6,
     "type": "Movie",
@@ -863,7 +949,7 @@ body::-webkit-scrollbar-thumb:hover {
     ],
     "budget": 40,
     "revenue": 128,
-    "trailerUrl": "https://www.youtube.com/watch?v=sO-u_r5W4d"
+    "trailerUrl": "https://uflix.cc/movie/aliens-vs-predator-requiem-2007"
   },
   {
     "id": 264,
@@ -878,7 +964,7 @@ body::-webkit-scrollbar-thumb:hover {
     ],
     "budget": 40,
     "revenue": 127,
-    "trailerUrl": "https://www.youtube.com/watch?v=sI9f-f9W_S"
+    "trailerUrl": "https://uflix.cc/movie/predators-2010"
   },
   {
     "id": 265,
@@ -893,7 +979,7 @@ body::-webkit-scrollbar-thumb:hover {
     ],
     "budget": 130,
     "revenue": 403,
-    "trailerUrl": "https://www.youtube.com/watch?v=sXj5-s0Q2s"
+    "trailerUrl": "https://uflix.cc/movie/prometheus-2012"
   },
   {
     "id": 266,
@@ -908,7 +994,7 @@ body::-webkit-scrollbar-thumb:hover {
     ],
     "budget": 97,
     "revenue": 240,
-    "trailerUrl": "https://www.youtube.com/watch?v=vV1i4wN-j-c"
+    "trailerUrl": "https://uflix.cc/movie/alien-covenant-2017"
   },
   {
     "id": 267,
@@ -923,7 +1009,7 @@ body::-webkit-scrollbar-thumb:hover {
     ],
     "budget": 88,
     "revenue": 160,
-    "trailerUrl": "https://www.youtube.com/watch?v=vL-2L-1K1-4"
+    "trailerUrl": "https://uflix.cc/movie/the-predator-2018"
   },
   {
     "id": 268,
@@ -939,7 +1025,7 @@ body::-webkit-scrollbar-thumb:hover {
     ],
     "budget": 65,
     "revenue": null,
-    "trailerUrl": "https://www.youtube.com/watch?v=vL-2L-1K1-5"
+    "trailerUrl": "https://uflix.cc/movie/prey-2022"
   },
   {
     "id": 269,
@@ -954,7 +1040,7 @@ body::-webkit-scrollbar-thumb:hover {
     ],
     "budget": 80,
     "revenue": 350,
-    "trailerUrl": "https://www.youtube.com/watch?v=vL-2L-1K1-6"
+    "trailerUrl": "https://uflix.cc/movie/alien-romulus-2024"
   },
   {
     "id": 270,
@@ -984,7 +1070,7 @@ body::-webkit-scrollbar-thumb:hover {
     ],
     "budget": 15,
     "revenue": null,
-    "trailerUrl": null
+    "trailerUrl": "https://uflix.cc/movie/predator-killer-of-killers-2025"
   },
   {
     "id": 272,
@@ -999,7 +1085,7 @@ body::-webkit-scrollbar-thumb:hover {
     ],
     "budget": null,
     "revenue": null,
-    "trailerUrl": null
+    "trailerUrl": "https://www.youtube.com/watch?v=43R9l7EkJwE"
   }
 ];
         
